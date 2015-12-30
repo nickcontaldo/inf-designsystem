@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    BASE.CSS
+\*------------------------------------*/
+
+/**
+ * HTML
+ */
+
+html{
+    text-align: #{$dir-default};
+    color: #444;
+}
+
+/**
+ * Clearfix
+ */
+
+.clearfix{
+    @include clearfix;
+}
