@@ -6,7 +6,7 @@
 
 var version = '1.0.0',
     lastUpdated = '26 Feb 2014',
-    disqus_shortname = 'nickcontaldo';
+    disqus_shortname = 'nextgendesignsystem';
 
 
 /* jsonPath of the files will be inserted by gulp-script-inject after reading /src/json folder */

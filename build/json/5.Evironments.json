@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Desktop",
+        "slug": "Desktop",
+        "children": [
+            {
+                "path": "patterns/5.Evironments/Desktop/landing.md",
+                "name": "Article landing",
+                "slug": "landing.md",
+                "meta": {
+                    "url": "templateurl",
+                    "preview": "patterns/3.templates/Landing Pages/landing.png"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mobile",
+        "slug": "Mobile",
+        "children": [
+            {
+                "path": "patterns/5.Evironments/Mobile/landing.md",
+                "name": "Article landing",
+                "slug": "landing.md",
+                "meta": {
+                    "url": "templateurl",
+                    "preview": "patterns/3.templates/Landing Pages/landing.png"
+                }
+            }
+        ]
+    }
+]

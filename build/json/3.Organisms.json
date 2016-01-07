@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Feed",
+        "slug": "Feed",
+        "children": [
+            {
+                "path": "patterns/3.Organisms/Feed/priority-feed.md",
+                "name": "Panel",
+                "slug": "priority-feed.md"
+            }
+        ]
+    }
+]

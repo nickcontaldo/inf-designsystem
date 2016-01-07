@@ -14,7 +14,9 @@ var gulp = require('gulp'),
     tree = require('gulp-tree'),
     scriptInject = require('gulp-script-inject'),
     prunehtml = require('gulp-prune-html'),
-    git = require('gulp-git')
+    git = require('gulp-git'),
+    fs = require('fs'),
+    es = require('event-stream')
 
 console.log()
 
@@ -44,6 +46,34 @@ function copyPtrns(){
         .pipe(gulp.dest('./src/patterns'))
     
 }
+
+gulp.task('changelist', function(){
+    gulp.src(['./new-patterns/inf-patterns/**/*.md'], {read: false})
+    .pipe(readfile()).on('end', function(cb){
+        fs.writeFile('./src/changelist.json', JSON.stringify(filecontents), cb);
+    })
+})
+
+var filecontents = [];
+
+function readfile(){
+    var dateModified;
+    var fileName;
+    function transform(file, cb){
+        fileName = file.path
+        fs.stat(fileName, function (err, stats){
+            dateModified = stats.mtime;            
+        })
+        
+        var fileInfo = { file: fileName, date: dateModified };
+        filecontents.push(fileInfo);
+        cb(null, file)
+    }
+    
+    return es.map(transform);
+}
+
+
 /**
  * Sass Task
  */
@@ -90,7 +120,7 @@ gulp.task('jade', function(){
         .pipe(jade({
             pretty : true
         }))     
-        .pipe(embedlr())
+        //.pipe(embedlr())
         .pipe(gulp.dest('./src/'))
     ;
     
@@ -203,7 +233,7 @@ gulp.task('server', function(){
 
         /* Add a watcher */
 
-        gulp.watch(['./src/assets/css/*', './src/*.html'])._watcher.on('all', livereload)
+        gulp.watch(['./src/assets/css/**', './src/**.html'])._watcher.on('all', livereload)
     }
 })
 

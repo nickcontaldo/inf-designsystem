@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Colors",
+        "slug": "Colors",
+        "children": [
+            {
+                "path": "patterns/1.Atoms/Colors/goldfish.md",
+                "name": "Goldfish",
+                "slug": "goldfish.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Icons",
+        "slug": "Icons",
+        "children": [
+            {
+                "path": "patterns/1.Atoms/Icons/icons.md",
+                "name": "Icons",
+                "slug": "icons.md"
+            }
+        ]
+    },
+    {
+        "name": "Typography",
+        "slug": "Typography",
+        "children": [
+            {
+                "path": "patterns/1.Atoms/Typography/body-copy.md",
+                "name": "Body copy",
+                "slug": "body-copy.md"
+            },
+            {
+                "path": "patterns/1.Atoms/Typography/headings.md",
+                "name": "Headings",
+                "slug": "headings.md"
+            },
+            {
+                "path": "patterns/1.Atoms/Typography/links.md",
+                "name": "Links",
+                "slug": "links.md"
+            }
+        ]
+    }
+]

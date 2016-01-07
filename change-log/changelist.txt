@@ -1,0 +1,13 @@
+undefined/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/2.Molecules/tip.md undefined
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/4.Ecosystems/priority-feed-with-tip.md Mon Dec 28 2015 19:15:10 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/1.Atoms/Colors/goldfish.md Mon Dec 28 2015 19:14:34 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/1.Atoms/Typography/body-copy.md Mon Dec 28 2015 14:51:03 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/1.Atoms/Typography/headings.md Mon Dec 28 2015 09:57:47 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/1.Atoms/Typography/links.md Mon Dec 28 2015 09:57:47 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/1.Atoms/Icons/icons.md Mon Dec 28 2015 09:57:47 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/2.Molecules/Cards/list-card.md Mon Dec 28 2015 09:57:47 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/2.Molecules/Text Snippets/1.update.md Mon Dec 28 2015 19:15:10 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/2.Molecules/Text Snippets/update-with-cta.md Mon Dec 28 2015 19:15:10 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/3.Organisms/Feed/priority-feed.md Mon Dec 28 2015 19:15:10 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/5.Evironments/Desktop/landing.md Mon Dec 28 2015 19:15:10 GMT-0700 (MST)
+/Users/nick.contaldo/Desktop/inf-designsystem/new-patterns/inf-patterns/5.Evironments/Mobile/landing.md Mon Dec 28 2015 09:57:47 GMT-0700 (MST)
